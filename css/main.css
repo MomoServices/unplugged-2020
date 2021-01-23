@@ -98,10 +98,11 @@ footer {
 
 header {
   text-align: center;
+  padding: 15px 0;
 }
 
 header .content-wrapper {
-
+  width: 60%;
 }
 
 .header-divider {
@@ -109,18 +110,20 @@ header .content-wrapper {
 }
 
 header nav {
-
+  width: 60%;
 }
 
-header nav ul li {
+header nav ul {
+  width: 60%;
+
 
 }
 
 .hero-area {
-
+ padding: 15px 0;
 }
 
-header section div .content-wrapper {
+header section .content-wrapper {
 
 }
 
@@ -132,7 +135,7 @@ main aside {
 
 }
 
-main aside div {
+main aside {
 
 }
 
@@ -154,14 +157,16 @@ main .content-wrapper {
 
 main section .features {
 
+  width: 60%;
+
 }
 
-main section div .content-wrapper {
+main section .content-wrapper {
 
 }
 
 article {
-
+  width: 60%;
 }
 
 .fontawesome-icons {
@@ -170,6 +175,10 @@ article {
 
 .reviews {
 
+}
+
+h3 {
+  width: 60%;
 }
 
 section .content-wrapper {
@@ -181,7 +190,8 @@ footer {
 }
 
 footer .content-wrapper {
-
+  width: 55%;
+  margin: 50px 0;
 }
 
 .footer-content {
