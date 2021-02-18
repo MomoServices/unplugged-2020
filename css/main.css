@@ -109,19 +109,48 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  color: #e2e3ed;
+  font-weight: 500;
+  font-size: 40px;
+  text-transform: none;
+  text-align: left;
+  line-height: normal;
+  text-decoration: none;
+}
+
 h2 {
 
     font-family: 'Poppins', sans-serif;
+    color: #e2e3ed;
+    font-weight: 500;
+    font-size: 35px;
+    text-transform: none;
+    text-align: left;
+    line-height: normal;
+    text-decoration: none;
+
 
 }
 
 h3,
 h4 {
     font-family: 'Poppins', sans-serif;
+    color: #e2e3ed;
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: none;
+    text-align: left;
+    line-height: normal;
+    text-decoration: none;
+}
+
+h4 {
+    text-align: center;
 }
 
 p {
-
+  color: #ffff;
 }
 
 img {
@@ -133,6 +162,12 @@ figure {
 }
 
 address {
+  color: #ffff;
+
+}
+
+email {
+  color: #ffff;
 
 }
 
@@ -149,6 +184,7 @@ address {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     background-color: #202322;
    }
 
    header {
@@ -196,8 +232,16 @@ address {
      margin: 50px 0;
    }
 
+
+
    footer .contact {
      margin-bottom: 50px;
+     text-align: center;
+
+   }
+
+   footer .social {
+
    }
 
    footer .social-icons {
@@ -224,6 +268,10 @@ address {
      display: flex;
      justify-content: center;
      flex-flow: row wrap;
+     background-image:url("../img/jake-unsplash.png");
+     padding: 0 150px 150px 10px;
+     background-size: contain;
+     background-repeat: no-repeat;
    }
 
    /* Aside */
@@ -233,6 +281,7 @@ address {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     background-color: #527158;
    }
 
    /* Features */
@@ -241,6 +290,9 @@ address {
      display: flex;
      justify-content: center;
      flex-flow: row wrap;
+     background-image:url("../img/rawpixel.png");
+     background-size: cover;
+     background-color: #cccccc;
    }
 
    .features h2 {
@@ -250,6 +302,7 @@ address {
    .features article {
      width: 63%;
      margin: 30px 0;
+     text-align: center;
    }
 
    .features .features-items {
@@ -261,6 +314,7 @@ address {
 
    .features p {
      margin: 0;
+     padding-top: 30px;
    }
 
    /* Reviews */
@@ -269,6 +323,7 @@ address {
      display: flex;
      justify-content: center;
      flex-flow: row wrap;
+     background-color: #2a423a;
    }
 
    .reviews h2 {
@@ -289,6 +344,7 @@ address {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     background-color: #527158;
    }
 
    .contact-section {
@@ -296,10 +352,13 @@ address {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     background-color: #2a423a;
+
    }
 
    .contact-content p {
      margin: 0;
+
    }
 
    /* ==========================================================================
@@ -512,11 +571,15 @@ address {
         About Page
         ========================================================================== */
 
+       .mission {
+
+        }
+
        .mission-content {
          display: flex;
          justify-content: space-between;
          align-items: center;
-         padding-top: 20px
+         padding-top: 20px;
        }
 
        .mission-content p {
@@ -539,16 +602,47 @@ address {
 
        .faq .content-wrapper {
          justify-content: space-between;
+        
        }
 
        .faq-content {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
          flex-basis: 45%;
+
        }
 
-       .faq h2 {
+       .faq h3 {
          width: 100%;
        }
-     }
+    }
+
+      aside .form {
+      margin-top: 30px;
+    }
+
+      input[type=text] {
+      box-sizing: border-box;
+      width: 100%;
+      color: #2a423a;
+      font-style: italic;
+      padding: 1em;
+    }
+
+      input[type=button] {
+      width: 100%;
+      padding: 20px 0;
+      margin-top: 20px;
+      background-color: #2a423a;
+      font-family: 'Poppins', Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      font-size: 1.125em;
+      color: #e2e3ed;
+      border: none;
+      text-align: center;
+      text-transform: uppercase;
+    }
 
    @media print,
    (-webkit-min-device-pixel-ratio: 1.25),
