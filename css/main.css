@@ -602,16 +602,19 @@ email {
 
        .faq .content-wrapper {
          justify-content: space-between;
-        
+
        }
 
        .faq-content {
          display: flex;
-         justify-content: space-between;
+         justify-content: center;
          align-items: center;
-         flex-basis: 45%;
+         flex-flow: column wrap;
+         flex-basis: 50%;
+         column-count: 2;
 
        }
+
 
        .faq h3 {
          width: 100%;
