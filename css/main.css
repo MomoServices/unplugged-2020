@@ -366,6 +366,7 @@ email {
       ========================================================================== */
 
    .faq {
+     background-color: #527158;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -599,31 +600,38 @@ email {
        /* ==========================================================================
         FAQ Page
         ========================================================================== */
-
-       .faq .content-wrapper {
-         justify-content: space-between;
-
-       }
-
-       .faq-content {
+       .faq {
+         background-color: #527158;
          display: flex;
          justify-content: center;
          align-items: center;
-         flex-flow: column wrap;
-         flex-basis: 50%;
-         column-count: 2;
+         flex-flow: row wrap;
+       }
+
+       .faq .content-wrapper {
+         display: flex;
+         margin: 50px 0 0 0;
+         justify-content: space-between;
+         align-items: center;
+         flex-flow: row wrap;
+         width: 45%;
 
        }
 
-
-       .faq h3 {
-         width: 100%;
+       .faq h2 {
+         margin-bottom: 40px;
+         line-height: 1;
        }
-    }
 
-      aside .form {
-      margin-top: 30px;
-    }
+       .faq-content {
+         margin-bottom: 50px;
+         flex-basis: 45%;
+
+       }
+
+      .faq-content h4 {
+
+      }
 
       input[type=text] {
       box-sizing: border-box;
