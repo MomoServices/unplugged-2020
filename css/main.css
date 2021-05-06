@@ -347,6 +347,7 @@ email {
      background-color: #527158;
    }
 
+
    .contact-section {
      display: flex;
      justify-content: center;
@@ -568,6 +569,32 @@ email {
            width: 100%;
          }
 
+         /*
+         ===========================
+         About table Footer
+         ===========================
+         */
+
+
+        /*
+        ===========================
+        FAQ table Footer
+        ===========================
+        */
+
+         footer section .social {
+
+         }
+
+         footer .social-content {
+
+         }
+
+         footer .copyright {
+           width: 100%;
+           text-align: center;
+         }
+
        /* ==========================================================================
         About Page
         ========================================================================== */
@@ -612,25 +639,24 @@ email {
          display: flex;
          margin: 50px 0 0 0;
          justify-content: space-between;
-         align-items: center;
+         align-items: left;
          flex-flow: row wrap;
-         width: 45%;
-
        }
 
-       .faq h2 {
-         margin-bottom: 40px;
+       .faq h1 {
+         margin-top: 100px;
+         margin-left: 7.5%;
          line-height: 1;
+         width: 100%;
        }
 
        .faq-content {
-         margin-bottom: 50px;
-         flex-basis: 45%;
-
+         margin: 0 25px 30px 23px;
+         flex-basis: 40%;
        }
 
       .faq-content h4 {
-
+        text-align: left;
       }
 
       input[type=text] {
