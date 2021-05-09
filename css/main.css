@@ -99,6 +99,14 @@ body {
   font-size: 1em;
 }
 
+img {
+	width: 100%;
+}
+
+figure {
+        margin: 0;
+}
+
 ul,
 ol {
 
@@ -268,10 +276,11 @@ email {
      display: flex;
      justify-content: center;
      flex-flow: row wrap;
-     background-image:url("../img/jake-unsplash.png");
-     padding: 0 150px 150px 10px;
-     background-size: contain;
+     background-image:url("../img/jake-unsplash.jpg");
+     background-size: cover;
      background-repeat: no-repeat;
+     background-position: center;
+     background-color: #333;
    }
 
    /* Aside */
