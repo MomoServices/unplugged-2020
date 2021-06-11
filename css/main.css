@@ -642,20 +642,9 @@ email {
        }
 
        .map figure{
-           width: 100%;
-           height: 451px;
-           padding-bottom: 125%;
-           overflow: hidden;
-           position: relative;
+           padding-bottom: 45.5%;
          }
 
-         .map iframe{
-       width: 100%;
-       height: 451px;
-       position: absolute;
-       top: 0;
-       left: 0;
-     }
 
        .contact-section .content-wrapper h2 {
          width: 80%;
@@ -847,6 +836,11 @@ email {
   .contact-section .content-wrapper h2 {
       width: 95%;
   }
+
+  .map figure{
+      padding-bottom: 37.5%;
+    }
+
 
   .contact-content {
     display: flex;
