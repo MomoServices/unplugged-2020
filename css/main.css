@@ -153,10 +153,6 @@ h4 {
     text-decoration: none;
 }
 
-h4 {
-    text-align: center;
-}
-
 p {
   color: #ffff;
 }
@@ -385,6 +381,14 @@ email {
    .contact-content p {
      margin: 0;
 
+   }
+
+   .contact h4 {
+     text-align: center;
+   }
+
+   .social h4 {
+     text-align: center;
    }
 
    /* ==========================================================================
